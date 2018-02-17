@@ -127,7 +127,9 @@ footer {
     height: 40px;
     margin: 0 5px;
 }
-
+a:hover .socialItem{
+    color: antiquewhite;
+}
 #contacts {
     position: absolute;
     left: 0;

@@ -5,11 +5,11 @@
     <link href="styles/site.css" rel="stylesheet">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/site.js"></script>
-    <title>Онлайн мотомагазин</title>
+    <title>Онлайн Мотомагазин</title>
 </head>
 <body>
 <header>
-    <div id="headerInside">
+    <div id="headerInside"> 
         <div id="logo"></div>
         <div id="companyName">Moto</div>
         <div id="navWrap">
@@ -99,9 +99,9 @@
         </div>
 
         <div id="social">
-            <img class="socialItem" src="images/vk-social-logotype.svg">
-            <img class="socialItem" src="images/google-plus-social-logotype.svg">
-            <img class="socialItem" src="images/facebook-logo.svg">
+           <a target="_blank" href="https://vk.com/"><img class="socialItem" src="images/vk-social-logotype.svg"></a> 
+           <a target="_blank" href="https://plus.google.com"><img class="socialItem" src="images/google-plus-social-logotype.svg"></a> 
+           <a target="_blank" href="https://ru-ru.facebook.com"><img class="socialItem" src="images/facebook-logo.svg"></a> 
         </div>
 
         <div id="copyrights">&copy; Moto</div>
