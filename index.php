@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles/site.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/site.js"></script>
     <title>Онлайн Мотомагазин</title>
@@ -100,9 +101,11 @@
             </div>
 
             <div id="social">
-                <a target="_blank" href="https://vk.com/"><img class="socialItem" src="images/vk-social-logotype.svg"></a>
-                <a target="_blank" href="https://plus.google.com"><img class="socialItem" src="images/google-plus-social-logotype.svg"></a>
-                <a target="_blank" href="https://ru-ru.facebook.com"><img class="socialItem" src="images/facebook-logo.svg"></a>
+                <a target="_blank" href="https://vk.com/"><i class="fab fa-vk"></i></a>
+
+                <a target="_blank" href="https://plus.google.com"><i class="fab fa-google-plus-g"></i></a>
+
+                <a target="_blank" href="https://ru-ru.facebook.com"><i class="fab fa-facebook-f"></i></a>
             </div>
 
             <div id="copyrights">&copy; Moto</div>
