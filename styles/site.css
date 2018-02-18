@@ -42,7 +42,10 @@ header {
     background: url('../images/logo.png') no-repeat;
     background-size: contain;
 }
-
+#logo a{
+    height: 60px;
+    width: 60px;
+}
 #companyName {
     text-align: right;
     font-family: Huntsman, sans-serif;
@@ -127,9 +130,11 @@ footer {
     height: 40px;
     margin: 0 5px;
 }
+
 a:hover .socialItem{
-    color: antiquewhite;
+    background-color: antiquewhite;
 }
+
 #contacts {
     position: absolute;
     left: 0;
