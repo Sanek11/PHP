@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <link href="styles/site.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/site.js"></script>
-    <title>Онлайн мотомагазин</title>
+    <title>Онлайн Мотомагазин</title>
 </head>
+
 <body>
-<header>
-    <div id="headerInside">
-        <div id="logo"></div>
-        <div id="companyName">Moto</div>
-        <div id="navWrap">
-            <a href="/">
+    <header>
+        <div id="headerInside">
+            <div>
+                <a href="index.php"> <img id="logo" src="../images/logo.png" alt="logo"> </a>
+            </div>
+            <div id="companyName">Moto</div>
+            <div id="navWrap">
+                <a href="/">
                 Главная
             </a>
-            <a href="index.php?page=shop">
+                <a href="index.php?page=shop">
                 Магазин
             </a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<div id="content">
-    <?php
+    <div id="content">
+        <?php
     $goods = [
     [
     'id' => 1,
@@ -72,41 +77,41 @@
         require('templates/openedProduct.php');
   }
 ?>
- 
-</div>
 
-<footer>
-    <div id="footerInside">
-
-        <div id="contacts">
-            <div class="contactWrap">
-                <img src="images/envelope.svg" class="contactIcon" alt="email">
-                info@motoshop.ru
-            </div>
-            <div class="contactWrap">
-                <img src="images/phone-call.svg" class="contactIcon" alt="phone">
-                8 800 555 00 00
-            </div>
-            <div class="contactWrap">
-                <img src="images/placeholder.svg" class="contactIcon" alt="map">
-                Москва, пр-т Ленина, д. 1 офис 304
-            </div>
-        </div>
-
-        <div id="footerNav">
-            <a href="/">Главная</a>
-            <a href="index.php?page=shop">Магазин</a>
-        </div>
-
-        <div id="social">
-            <img class="socialItem" src="images/vk-social-logotype.svg" alt="vk">
-            <img class="socialItem" src="images/google-plus-social-logotype.svg" alt="google+">
-            <img class="socialItem" src="images/facebook-logo.svg" alt="facebook">
-        </div>
-
-        <div id="copyrights">&copy; Moto</div>
     </div>
-</footer>
+
+    <footer>
+        <div id="footerInside">
+
+            <div id="contacts">
+                <div class="contactWrap">
+                    <img src="images/envelope.svg" class="contactIcon"> info@motoshop.ru
+                </div>
+                <div class="contactWrap">
+                    <img src="images/phone-call.svg" class="contactIcon"> 8 800 555 00 00
+                </div>
+                <div class="contactWrap">
+                    <img src="images/placeholder.svg" class="contactIcon"> Москва, пр-т Ленина, д. 1 офис 304
+                </div>
+            </div>
+
+            <div id="footerNav">
+                <a href="/">Главная</a>
+                <a href="index.php?page=shop">Магазин</a>
+            </div>
+
+            <div id="social">
+                <a target="_blank" href="https://vk.com/"><i class="fab fa-vk"></i></a>
+
+                <a target="_blank" href="https://plus.google.com"><i class="fab fa-google-plus-g"></i></a>
+
+                <a target="_blank" href="https://ru-ru.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            </div>
+
+            <div id="copyrights">&copy; Moto</div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
